@@ -120,3 +120,35 @@ section ul {
     list-style-type: disc;
     margin-left: 20px;
 }
+    .research-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Allow items to wrap if the screen is too small */
+}
+
+.research-item {
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+}
+
+.research-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.research-item p {
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
