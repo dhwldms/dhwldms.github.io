@@ -26,17 +26,20 @@ header h1 {
 
 /* About Sections */
 .about-sections {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0 10%;
+    padding: 2rem 10%;
 }
 
 .about-item {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #eaeaea; /* Border between sections */
-    padding-bottom: 20px;
+    margin-bottom: 2rem;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Slight downward position */
+    transition: all 0.5s ease-out;
 }
 
+.about-item.visible {
+    opacity: 1;
+    transform: translateY(0); /* Reset position */
+}
 .about-item h2 {
     font-size: 1.8rem;
     margin-bottom: 10px;
