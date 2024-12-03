@@ -154,7 +154,40 @@ footer {
 .research-item p {
     font-size: 1rem;
 }
+.publications-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 10%;
+}
 
+.publication-item {
+    margin-bottom: 40px; /* Add more space between publications */
+}
+
+.publication-item h2 {
+    font-size: 1.5rem; /* Reduce the font size */
+    margin-bottom: 10px;
+    font-weight: normal; /* Keep the title normal weight */
+}
+
+.publication-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.publication-item a {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #D8A7D4; /* Light lavender color */
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.publication-item a:hover {
+    background-color: #9e6fa7; /* Darker shade of lavender */
+}
 /* Footer Styling */
 footer {
     position: fixed;
