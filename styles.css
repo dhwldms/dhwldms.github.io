@@ -67,8 +67,6 @@ footer {
     border-top: 1px solid #eaeaea;
 }
 
-/* Horizontal Buttons (For Detail Pages) */
-/* 버튼 스타일 */
 /* Horizontal Buttons */
 .horizontal-buttons {
     display: flex;
@@ -92,6 +90,9 @@ footer {
     color: #D8A7D4; /* Light lavender color */
     font-weight: bold; /* Make text bold */
 }
+    
+
+    
 /* Section Content (Detail Pages) */
 section {
     max-width: 700px;
