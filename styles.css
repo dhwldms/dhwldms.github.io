@@ -94,34 +94,38 @@ footer {
 
     
 /* Section Content (Detail Pages) */
-section {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 1rem;
-    margin-bottom: 2rem; /* 각 섹션 간 여백 */
-    display: flex;
-    flex-direction: column;  /* 세로 방향으로 항목들 배치 */
+/* About Sections */
+.about-sections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 10%;
 }
 
-section h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #eaeaea;
-    padding-bottom: 0.5rem;
+.about-item {
+    margin-bottom: 30px; /* Add spacing between each section */
 }
 
-section p, section ul {
+.about-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-item p, .about-item ul {
     font-size: 1rem;
     line-height: 1.6;
-    margin-top: 1rem;
 }
 
-section ul {
-    list-style-type: disc;
-    margin-left: 20px;
+.about-item ul {
+    list-style-type: none;
+    padding-left: 0;
 }
-    .research-content {
+
+.about-item li {
+    margin-bottom: 10px;
+}
+
+.research-content {
     display: flex;
     gap: 2rem;
     justify-content: center;
