@@ -1,5 +1,5 @@
-/* Base Reset */
-* {
+/* Reset 기본 설정 */
+body, h1, p, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,106 +7,62 @@
 
 body {
     font-family: 'Helvetica', Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    overflow: hidden; /* 스크롤바 제거 */
 }
 
-/* Header Section */
-header {
-    background: linear-gradient(to bottom, #004d99, #0073e6);
-    color: white;
-    padding: 2rem 0;
+/* 랜딩 페이지 스타일 */
+.landing-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg'); /* 배경 이미지 URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
     text-align: center;
+    color: white;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.landing-page .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* 어두운 투명 오버레이 */
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
-header p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+.landing-page p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-header nav {
-    margin-top: 1rem;
-}
-
-header nav ul {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
-header nav ul li a {
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-header nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* Section Styling */
-section {
-    max-width: 800px;
-    margin: 3rem auto;
-    padding: 1.5rem;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-section h2 {
-    color: #004d99;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #0073e6;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-section p, section ul {
-    margin: 1rem 0;
-    font-size: 1rem;
-}
-
-/* Footer Section */
-footer {
-    background-color: #004d99;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    font-size: 0.9rem;
-}
-
-/* Button and Links */
-a.button {
-    display: inline-block;
-    background-color: #0073e6;
     color: white;
     padding: 10px 20px;
-    text-decoration: none;
+    background-color: #004d99;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-a.button:hover {
-    background-color: #004d99;
+nav ul li a:hover {
+    background-color: #0073e6;
 }
