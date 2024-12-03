@@ -1,0 +1,80 @@
+/* about.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pretendard', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* About Sections */
+.about-sections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 10%;
+}
+
+.about-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eaeaea; /* Border between sections */
+    padding-bottom: 20px;
+}
+
+.about-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.about-item p, .about-item ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.about-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-item li {
+    margin-bottom: 10px;
+}
+
+.horizontal-buttons {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.horizontal-buttons .button {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.horizontal-buttons .button:hover {
+    color: #D8A7D4;
+    font-weight: bold;
+}
