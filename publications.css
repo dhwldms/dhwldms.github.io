@@ -24,30 +24,74 @@ header h1 {
     font-weight: normal;
 }
 
-/* Research Content */
-.research-content {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    margin-top: 30px;
-    flex-wrap: wrap;
+/* publications.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.research-item {
-    width: 30%;
+body {
+    font-family: 'Pretendard', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
     text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* Publication Content */
+.publication-item {
     margin-bottom: 20px;
 }
 
-.research-item h2 {
-    font-size: 1.5rem;
+.publication-item h3 {
+    font-size: 1.5rem; /* Reduced font size */
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
-.research-item p {
+.publication-item p {
     font-size: 1rem;
     line-height: 1.6;
 }
+
+.publication-item li {
+    margin-bottom: 10px;
+}
+
+.horizontal-buttons {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.horizontal-buttons .button {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.horizontal-buttons .button:hover {
+    color: #D8A7D4;
+    font-weight: bold;
+}
+
 
 .horizontal-buttons {
     display: flex;
