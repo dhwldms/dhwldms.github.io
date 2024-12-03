@@ -68,13 +68,6 @@ footer {
 }
 
 /* Horizontal Buttons (For Detail Pages) */
-.horizontal-buttons {
-    display: flex;
-    justify-content: center;  /* 버튼을 중앙에 정렬 */
-    gap: 1.5rem;
-    margin: 1rem 0;  /* 상단 여백 */
-}
-
 /* 버튼 스타일 */
 /* Horizontal Buttons */
 .horizontal-buttons {
